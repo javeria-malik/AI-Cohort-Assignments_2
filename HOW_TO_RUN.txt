@@ -1,0 +1,41 @@
+========================================================================
+                     HOW TO RUN MY TASK TRACKER
+========================================================================
+
+STEP 1: Open Terminal or PowerShell
+-----------------------------------
+Navigate to this project folder if not already there:
+  cd "D:\Assignment 2"
+
+
+STEP 2: Install Requirements (One-time setup)
+---------------------------------------------
+Run this command to make sure Streamlit is installed:
+  pip install -r requirements.txt
+
+
+STEP 3: Run the Application
+---------------------------
+Start the Streamlit application by running:
+  streamlit run app.py
+
+
+STEP 4: Open in Browser
+-----------------------
+Streamlit will automatically open your default browser.
+If it doesn't open automatically, open your browser and go to:
+  http://localhost:8501
+
+
+STEP 5: (Optional) Run Automated Tests
+--------------------------------------
+To run all test cases and verify everything works:
+  python test_app.py
+
+
+STEP 6: How to Stop the App
+---------------------------
+To stop the server, go back to your terminal window and press:
+  Ctrl + C
+========================================================================
+
